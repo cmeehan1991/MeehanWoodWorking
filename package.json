@@ -1,0 +1,28 @@
+{
+  "name": "meehanwoodworking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmeehan1991/MeehanWoodWorking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmeehan1991/MeehanWoodWorking/issues"
+  },
+  "homepage": "https://github.com/cmeehan1991/MeehanWoodWorking#readme",
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "laravel-mix": "^5.0.1",
+    "resolve-url-loader": "^3.1.1",
+    "sass": "^1.24.4",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
