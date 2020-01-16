@@ -12,6 +12,7 @@ add_image_size( 'lrg_size', 1200 );
 add_image_size( 'sup_size', 2400 );
 
 // Required functions
+include(MWW_PATH . '/includes/functions/functions-acf.php');
 include(MWW_PATH . '/includes/functions/functions-assets.php');
 include(MWW_PATH . '/includes/functions/functions-supports.php');
 include(MWW_PATH . '/includes/functions/functions-menus.php');
