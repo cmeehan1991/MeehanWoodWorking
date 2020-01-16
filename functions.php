@@ -5,7 +5,6 @@ DEFINE('MWW_PATH', get_template_directory());
 DEFINE('MWW_VERSION', '0.0.1');
 
 
-
 // Image sizing
 add_image_size( 'sml_size', 300 ); 
 add_image_size( 'mid_size', 600 ); 
@@ -31,3 +30,4 @@ foreach(glob(MWW_PATH . '/includes/acf/groups/*_active.php') as $file){
 // Widgets
 
 include(MWW_PATH . '/includes/widgets/SocialMediaWidget.php');
+

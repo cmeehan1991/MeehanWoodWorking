@@ -31,6 +31,7 @@ function mww_styles(){
 	wp_enqueue_style('Homepage Template', MWW_URI . '/assets/styles/css/homepage.css', array(), MWW_VERSION);
 	wp_enqueue_style('Woocommerce', MWW_URI . '/assets/styles/css/mww-woocommerce.css', array(), MWW_VERSION);
 	wp_enqueue_style('FontAwesome Brands', MWW_URI . '/assets/styles/css/fontawesome.css', array(), MWW_VERSION);
+
 	
 	// Shadowbox
 	wp_enqueue_style( 'Shadowbox CSS', MWW_URI . '/assets/shadowbox/src/shadowbox.css', array() );

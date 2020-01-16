@@ -8,6 +8,7 @@
 		<h2 class="display-2"><?php the_title(); ?></h2>
 		<p class="lead"><?php echo get_the_date( 'M d, Y' ); ?></p>
 	</div>
+
 </div> 
 <div class="container-fluid">
 	<div class="row">

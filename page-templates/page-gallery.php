@@ -22,6 +22,7 @@ get_header();
 						
 						<a href="<?php echo $item['url'] ?>" rel="shadowbox['<?php the_title(); ?>']" title="<?php echo $item['title']; ?>">
 							<img src="<?php echo $item['url']?>" alt="<?php echo $item['alt']; ?>" class="gallery-item--image" rel="shadowbox">
+
 						</a>
 					
 						</li>

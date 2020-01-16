@@ -20,6 +20,7 @@ $i = 1; foreach($blog_items as $item): if($i == 1): ?>
 		<div class="card-body d-flex flex-column align-items-start">
 			<h3 class="mb-0">
 				<a class="text-dark" href="<?php echo get_the_permalink($item->ID); ?>"><?php echo get_the_title($item->ID); ?></a>
+
 			</h3>
 			<div class="mb-1 text-muted"><?php echo get_the_date('M d', $item->ID);?></div>
 				<p class="card-text mb-auto"><?php echo get_the_permalink($item->ID); ?></p>

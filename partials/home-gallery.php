@@ -11,6 +11,7 @@
 		<?php foreach(get_field('home_gallery') as $image): ?>
 	
 		<div class="col-md-2 mx-2">
+
 	
 			<img class="rounded img-thumbnail home-gallery--image" src="<?php echo $image['url'];?>" alt="<?php echo $image['alt']; ?>">
 	
