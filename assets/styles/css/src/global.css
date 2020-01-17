@@ -111,3 +111,89 @@ p + p{
 .jumbotron .container *{
 	color:#004d00;
 }
+
+/* Hero */
+.hero{
+	width:100%;
+	display:flex;
+	flex-flow: wrap;
+	flex-direction: column;
+	height:600px;
+	background-position: center center;
+}
+
+@media(max-width:786px){
+	.hero{
+		height:400px;
+	}
+}
+
+.hero-content-alignment--top-left{
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.hero-content-alignment--top-center{
+	justify-content: center;
+	align-items: flex-start;
+}
+.hero-content-alignment--top-right{
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+.hero-content-alignment--center-left{
+	justify-content: flex-start;
+	align-items: center;
+}
+.hero-content-alignment--center-center{
+	justify-content:center;
+	align-items: center;
+}
+.hero-content-alignment--center-right{
+	justify-content: flex-end;
+	align-items: center;
+}
+.hero-content-alignment--bottom-left{
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.hero-content-alignment--bottom-center{
+	justify-content: center;
+	align-items: flex-end;
+}
+.hero-content-alignment--bottom-right{
+	justify-content: flex-end;
+	align-items:flex-end;
+}
+
+/* Featured Posts Block*/
+.featured-posts{
+	width:100%;
+	list-style-type:none;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.featured-posts--post{
+	width:50%;
+}
+
+.featured-posts--post:first-of-type{
+	width:100%;
+}
+
+.featured-posts--post img{
+	float:left;
+}
+@media(max-width:786px){
+	.featured-posts--post{
+		width:100%;
+	}
+	
+	.featured-posts--post:after{
+		margin:23px;
+		border-bottom:1px solid black;
+	}
+	
+	
+}

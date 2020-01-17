@@ -100,9 +100,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var popper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.js");
+/* harmony import */ var _src_feed_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/feed.js */ "./assets/js/global/src/feed.js");
+/* harmony import */ var _src_feed_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_src_feed_js__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
+
+
+/***/ }),
+
+/***/ "./assets/js/global/src/feed.js":
+/*!**************************************!*\
+  !*** ./assets/js/global/src/feed.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+$(document).ready(function () {
+  var token = '433119235.bd79022.b1d33e3c676f471cb93fc8585e85d21d',
+      username = 'meehanwoodworking',
+      num_photos = 4;
+});
 
 /***/ }),
 

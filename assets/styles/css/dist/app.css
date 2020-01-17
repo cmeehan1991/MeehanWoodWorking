@@ -114,6 +114,116 @@ p + p{
 
 .jumbotron .container *{
 	color:#004d00;
+}
+
+/* Hero */
+.hero{
+	width:100%;
+	display:-webkit-box;
+	display:flex;
+	flex-flow: wrap;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	height:600px;
+	background-position: center center;
+}
+
+@media(max-width:786px){
+	.hero{
+		height:400px;
+	}
+}
+
+.hero-content-alignment--top-left{
+	-webkit-box-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: start;
+	        align-items: flex-start;
+}
+.hero-content-alignment--top-center{
+	-webkit-box-pack: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	        align-items: flex-start;
+}
+.hero-content-alignment--top-right{
+	-webkit-box-pack: end;
+	        justify-content: flex-end;
+	-webkit-box-align: start;
+	        align-items: flex-start;
+}
+.hero-content-alignment--center-left{
+	-webkit-box-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	        align-items: center;
+}
+.hero-content-alignment--center-center{
+	-webkit-box-pack:center;
+	        justify-content:center;
+	-webkit-box-align: center;
+	        align-items: center;
+}
+.hero-content-alignment--center-right{
+	-webkit-box-pack: end;
+	        justify-content: flex-end;
+	-webkit-box-align: center;
+	        align-items: center;
+}
+.hero-content-alignment--bottom-left{
+	-webkit-box-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: end;
+	        align-items: flex-end;
+}
+.hero-content-alignment--bottom-center{
+	-webkit-box-pack: center;
+	        justify-content: center;
+	-webkit-box-align: end;
+	        align-items: flex-end;
+}
+.hero-content-alignment--bottom-right{
+	-webkit-box-pack: end;
+	        justify-content: flex-end;
+	-webkit-box-align:end;
+	        align-items:flex-end;
+}
+
+/* Featured Posts Block*/
+.featured-posts{
+	width:100%;
+	list-style-type:none;
+	display:-webkit-box;
+	display:flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.featured-posts--post{
+	width:50%;
+}
+
+.featured-posts--post:first-of-type{
+	width:100%;
+}
+
+.featured-posts--post img{
+	float:left;
+}
+@media(max-width:786px){
+	.featured-posts--post{
+		width:100%;
+	}
+	
+	.featured-posts--post:after{
+		margin:23px;
+		border-bottom:1px solid black;
+	}
+	
+	
 }.bg-light{
 	background-color:#ffffff !important;
 }
@@ -122,126 +232,7 @@ p + p{
 	max-height:50px !important;
 	border-radius:50px 50px;
 }
-/* Hero Styles */
-.hero{
-	position:relative;
-	height:calc(100vh - 8.625rem);
-	overflow:hidden;
-}
-
-.hero--image, .hero--video{
-	display: -webkit-box;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	flex-direction: column;
-	background-color: #2a2a2a;
-}
-
-.hero--image:before, .hero--video:before{
-	content: '';
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index: 1;
-	mix-blend-mode: multiply;
-}
-
-.hero.hero--video video, .hero.hero--image img{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	min-width: 101%;
-	min-height: 101%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	z-index: 0;
-}
- 
- .hero-content{
-	position: relative;
-	width: 100%;
-	min-height: 1px;
-	padding-right: 20px;
-	padding-left: 20px;
-	z-index: 2;
-	margin: 0 auto;
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
-	text-align: center;
-	
- }
- 
- .hero.hero-content--center-top{
-	padding-top: 4.5rem;
-	padding-bottom: 0;
- }
- 
- .hero.hero-content--center-bottom{
-	-webkit-box-pack: end;
-	justify-content: flex-end;
- }
- 
- .hero.hero-content--center-center{
-	webkit-box-pack: center;
-	-webkit-box-pack: center;
-	        justify-content: center;
-
- }
-
-
-.hero-content h1{
-	font-size:1.25rem;
-	color:#ffffff;
-}
-
-.hero-subtitle{
-	font-size:3rem;
-	color:#ffffff;
-}
-
-.jumplink i{
-	color:#ffffff;
-	font-size:3rem;;
-}
-
-/* Features */
-.home-features{
-	margin-top:15px;
-}
-
-@media(min-width:768px){
-	.home-card{
-		max-width:300px;
-	}
-}
-
-/* Gallery */
-.home-gallery--image{
-	max-width:150px;
-}
-
-.section-heading{
-	text-align:center;
-}
-
-/* Shop */
-.home-shop--product{
-	max-width:300px;
-	max-height:350px;
-}
-
-.home-shop--product-image{
-	max-width:inherit;
-	width:100%;
-}
-
-.home-shop--product-title{
-	color:#000000;
-	text-align: center;
-}.woocommerce-product-gallery{
+.woocommerce-product-gallery{
 	float:left;
 	padding:15px;
 }

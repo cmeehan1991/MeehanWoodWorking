@@ -26,6 +26,7 @@
   "devDependencies": {
     "bootstrap": "^4.4.1",
     "cross-env": "^6.0.3",
+    "deployer": "0.0.6",
     "font-awesome": "^4.7.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
