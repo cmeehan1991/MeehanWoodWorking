@@ -33,7 +33,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^2.0.0",
     "gulp-uglify": "^3.0.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "laravel-mix": "^5.0.1",
     "popper.js": "^1.16.0",
     "resolve-url-loader": "^3.1.1",
