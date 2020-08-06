@@ -1,4 +1,3 @@
-</div> <!--.container-fluid-->
 <div class="footer bg-dark text-white">
 	<div class="container-fluid">
 		<div class="row">

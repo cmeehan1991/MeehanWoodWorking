@@ -9,7 +9,8 @@
 					<?php if(has_post_thumbnail($post)){?>
 					<img src="<?php echo get_the_post_thumbnail_url($post, 'medium'); ?>" alt="<?php echo get_the_title($post); ?>">
 					<?php } // Close check for featured image?>
-					<p><?php echo get_the_excerpt($post); ?></p>
+					<p><?php echo get_the_excerpt($post); ?> <a href="<?php echo get_the_permalink( $post); ?>">Continue Reading</a></p>
+					
 					</li>
 					<?php		
 				}

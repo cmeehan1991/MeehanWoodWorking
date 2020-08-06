@@ -30,7 +30,7 @@ host('production')
 	->hostname('meehanwoodworking.com')
 	->stage('production')
 	->port('2222')
-	->set('deploy_path', '/home1/cmeehan/meehanwoodworking.com/wp-content/themes/meehanwoodworking')
+	->set('deploy_path', '/home1/cmeehan/meehanwoodworking.com/wp-content/themes/meehanwoodworking');
     
 
 // Tasks

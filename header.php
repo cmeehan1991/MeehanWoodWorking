@@ -29,4 +29,3 @@
 			wp_nav_menu($nav_args);
 			?>
 		</nav>
-		<div class="container-fluid">

@@ -10,3 +10,10 @@ function woocommerce_support(){
 	add_theme_support( 'woocommerce' );	
 	add_theme_support( 'wc-product-gallery-lightbox' );
 }
+
+
+add_filter('excerpt_more', 'new_excerpt_more');
+function new_excerpt_more($more){
+	
+	return '...';
+}
